@@ -1,0 +1,113 @@
+/*
+** Formatação geral
+*/
+
+* {
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	background: #ccc;
+	font-size: 1em; 
+	font: 300 italic 'Roboto', sans-serif;
+}
+
+a {
+
+	text-decoration: none;
+}
+
+
+li {
+	list-style-type: none;
+}
+/*
+** Formatação menu
+*/
+
+.imagem {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 170px;
+	height: 28.66px;
+	padding:0px  15px ;
+	
+}
+
+#menu {
+	background: #990099;
+	position: fixed;
+	width: 100vw;
+	padding: 10px 10px 0px 10px;
+}
+
+#menu ul {
+	display: flex;
+	justify-content: space-around;
+}
+
+#menu-navegacao {
+	font-weight:  700;
+	font-size: 1.5em;
+	padding: 5px 12px 0px 12px; 
+}
+
+#menu-navegacao a {
+	display: block;
+	padding: 10px 20px;
+	color:white;
+
+}
+
+#menu-navegacao a:hover {
+	color:white;
+	background-color: #00cc99;
+}
+
+.carrinho {
+	width: 50px;
+	height: 50px;
+	position: fixed;
+	bottom: 5px;
+	right: 5px;
+}
+
+#numero-carrinho .numero {
+	color: #00cc99;
+	position: fixed;
+	font-size: 20px;
+	font-weight: 700;
+	bottom: 30px;
+	right: 10px;
+}
+
+#numero-carrinho .numero:hover {
+	font-size: 30px;
+}
+/*
+** Formatação conteudo 
+*/
+
+
+#conteudo {
+	background: #f2f2f2;
+	width: 1200px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#imagem-slider {
+	margin-left: 120px;
+	margin-right: 100px;
+	padding-bottom: 20px;
+}
+
+.emagrecedores h2 {
+	background:#990099;
+	color: white;
+	padding: 10px;
+	font-weight: 700;
+	text-align: center;
+}
