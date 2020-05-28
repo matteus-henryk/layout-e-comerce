@@ -10,7 +10,7 @@
 body {
 	background: #ccc;
 	font-size: 1em; 
-	font: 300 italic 'Roboto', sans-serif;
+	font-family: 'Montserrat', sans-serif;
 }
 
 a {
@@ -30,14 +30,14 @@ li {
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
-	width: 170px;
+	width: 200px;
 	height: 28.66px;
-	padding:0px  15px ;
-	
+	padding:15px  15px;
+	background: rgba(128, 0, 0,0.4);
 }
 
 #menu {
-	background: #990099;
+	background: #8c008c;
 	position: fixed;
 	width: 100vw;
 	padding: 10px 10px 0px 10px;
@@ -92,22 +92,82 @@ li {
 
 
 #conteudo {
-	background: #f2f2f2;
-	width: 1200px;
+	width: 1150px;
 	margin-left: auto;
 	margin-right: auto;
 }
 
 #imagem-slider {
-	margin-left: 120px;
-	margin-right: 100px;
-	padding-bottom: 20px;
+	background: #f2f2f2;
+	height: 575px;
 }
 
-.emagrecedores h2 {
+img#imagem-slider {
+	margin-left: 0;
+	margin-right: 0;
+	
+}
+
+.emagrecedores {
 	background:#990099;
 	color: white;
-	padding: 10px;
+	padding: 20px;
 	font-weight: 700;
 	text-align: center;
+}
+
+#produtos {
+	margin-top: 20px;
+}
+
+.container-produto {
+	background: #f2f2f2;
+	width: 390px;
+	height: 780px;
+}
+
+.imagem-produto {
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+	width: 214px;
+	height: 214px;
+	padding: 15px;
+
+}
+
+
+.descricao-produto {
+	font-weight: 400; 
+	text-align: center;
+}
+.nome-produto {
+	text-align: center;
+	font-size: 1.5em;
+	font-weight: 600;
+	color: #8c008c;
+	padding: 10px;
+}
+
+.preco-produto {
+	font-weight: 800;
+	color: #8c008c;
+	font-size: 1.5em;
+}
+
+.super-preco {
+	font-weight: 300;
+	padding: 10px;
+}
+
+.quantidade-produto {
+    text-align: center;
+
+}
+
+.caixa {
+	width: 52px;
+	height: 36px;
+	border: 1px solid  rgba(13, 13, 13, 0.3);
+	border-radius: 5px;
 }
