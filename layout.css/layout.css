@@ -102,7 +102,7 @@ li {
 	height: 575px;
 }
 
-img#imagem-slider {
+img #imagem-slider {
 	margin-left: 0;
 	margin-right: 0;
 	
@@ -117,13 +117,48 @@ img#imagem-slider {
 }
 
 #produtos {
+	justify-content: center
+	margin-left: auto;
+	margin-right: auto;
 	margin-top: 20px;
 }
 
-.container-produto {
+#container-produto1 {
 	background: #f2f2f2;
 	width: 390px;
-	height: 780px;
+	height: 680px;
+	float: left;
+	margin-left: 130px;
+	margin-right: 150px;
+	margin-top: 10px;
+}
+
+#container-produto2 {
+	background: #f2f2f2;
+	width: 390px;
+	height: 680px;
+	float: left;
+	margin-top: 10px;
+}
+
+#container-produto3 {
+	background: #f2f2f2;
+	width: 390px;
+	height: 680px;
+	float: left;
+	margin-left: 130px;
+	margin-right: 150px;
+	margin-top: 30px;
+	margin-bottom: 20px;
+}
+
+#container-produto4 {
+	background: #f2f2f2;
+	width: 390px;
+	height: 680px;
+	float: left;
+	margin-top: 30px;
+	margin-bottom: 20px;	
 }
 
 .imagem-produto {
@@ -158,6 +193,7 @@ img#imagem-slider {
 .super-preco {
 	font-weight: 300;
 	padding: 10px;
+	font-size: 0.9em;
 }
 
 .quantidade-produto {
@@ -168,6 +204,39 @@ img#imagem-slider {
 .caixa {
 	width: 52px;
 	height: 36px;
-	border: 1px solid  rgba(13, 13, 13, 0.3);
+	text-align: center;
+	font-size: 1.8em;
+	font-weight: 200;
+	font-family: 'Montserrat', sans-serif; 
+	border: 1px solid  rgba(13, 13, 13, 0.2);
 	border-radius: 5px;
+}
+
+.comprar a {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 120px;
+	height: 21px;
+	padding: 10px 20px 10px;
+	text-align: center;
+	color: white;
+	background: #00cc99; 
+}
+
+
+.beneficios  {
+	margin-top: 10px;
+	margin-left: 90px;
+	color: #8c008c;
+	font-size: 12px;
+}
+
+
+
+.beneficios li {
+	padding: 20px;
+	padding-top: 5px;
+	padding-left: 30px;
+	background: url(../imagens/icon-check.png) no-repeat;
 }
