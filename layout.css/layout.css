@@ -3,14 +3,19 @@
 */
 
 * {
+
 	padding: 0;
 	margin: 0;
 }
 
 body {
+	width: 100vw;
+	height: 100vh;
 	background: #ccc;
 	font-size: 1em; 
 	font-family: 'Montserrat', sans-serif;
+	padding: 0;
+	margin: 0;
 }
 
 a {
@@ -27,14 +32,26 @@ li {
 */
 
 .imagem {
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
-	width: 200px;
-	height: 28.66px;
+	display: flex;
+	justify-content: center;
+	margin: 0 auto;
+
+
 	padding:15px  15px;
 	background: rgba(128, 0, 0,0.4);
 }
+
+#imagem-titulo {
+	width: 50%;
+	margin: 0 auto;
+}
+
+#imagem-slider {
+	margin: 0;
+	padding: 0;
+
+}
+
 
 #menu {
 	background: #8c008c;
@@ -55,7 +72,6 @@ li {
 }
 
 #menu-navegacao a {
-	display: block;
 	padding: 10px 20px;
 	color:white;
 
@@ -92,17 +108,21 @@ li {
 
 
 #conteudo {
-	width: 1150px;
-	margin-left: auto;
-	margin-right: auto;
+
+	width: 100vw;
+	height: 100vh;
+	margin-left: 0;
+	margin-right: 0;
 }
 
 #imagem-slider {
+	width: 100%;
 	background: #f2f2f2;
-	height: 575px;
+
 }
 
-img #imagem-slider {
+#imagem-slider img {
+	width: 100%;
 	margin-left: 0;
 	margin-right: 0;
 	
@@ -110,6 +130,7 @@ img #imagem-slider {
 
 .emagrecedores {
 	background:#990099;
+	width: 100vw;
 	color: white;
 	padding: 20px;
 	font-weight: 700;
@@ -117,10 +138,9 @@ img #imagem-slider {
 }
 
 #produtos {
-	justify-content: center
-	margin-left: auto;
-	margin-right: auto;
+	justify-content: center;
 	margin-top: 20px;
+
 }
 
 #container-produto1 {
@@ -128,9 +148,7 @@ img #imagem-slider {
 	width: 390px;
 	height: 680px;
 	float: left;
-	margin-left: 130px;
-	margin-right: 150px;
-	margin-top: 10px;
+	margin: 10px 10px 10px 35px;
 }
 
 #container-produto2 {
@@ -138,7 +156,7 @@ img #imagem-slider {
 	width: 390px;
 	height: 680px;
 	float: left;
-	margin-top: 10px;
+	margin: 10px;
 }
 
 #container-produto3 {
@@ -146,10 +164,7 @@ img #imagem-slider {
 	width: 390px;
 	height: 680px;
 	float: left;
-	margin-left: 130px;
-	margin-right: 150px;
-	margin-top: 30px;
-	margin-bottom: 20px;
+	margin: 10px;
 }
 
 #container-produto4 {
@@ -157,9 +172,25 @@ img #imagem-slider {
 	width: 390px;
 	height: 680px;
 	float: left;
-	margin-top: 30px;
-	margin-bottom: 20px;	
+	margin: 10px 10px 10px 35px;	
 }
+
+#container-produto5 {
+	background: #f2f2f2;
+	width: 390px;
+	height: 680px;
+	float: left;
+	margin: 10px;	
+}
+
+#container-produto6 {
+	background: #f2f2f2;
+	width: 390px;
+	height: 680px;
+	float: left;
+	margin: 10px;	
+}
+
 
 .imagem-produto {
 	display: block;
@@ -239,4 +270,11 @@ img #imagem-slider {
 	padding-top: 5px;
 	padding-left: 30px;
 	background: url(../imagens/icon-check.png) no-repeat;
+	background-size: 25px;
 }
+
+.clear {
+	clear: both;
+	padding: 10px;
+}
+
