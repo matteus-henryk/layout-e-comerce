@@ -3,8 +3,8 @@
 <head>
     <title>Mais Fit</title>
     <meta charset="utf-8">
- <link href = "https://fonts.googleapis.com/css2? family = Montserrat: wght @ 400; 600; 800; 900 & display = swap" rel = "folha de estilo">  
- <link rel="stylesheet" type="text/css" href="layout.css/layout.css">
+ <link href = "https://fonts.googleapis.com/css2? family = Montserrat: wght @ 400; 600; 800; 900 & display = swap" rel = "folha de estilo"> 
+ <link rel="stylesheet" type="text/css" href="layout.css/layout2.css">
 </head>
 <body>
         <!-- Inicio menu cabeçalho e carrinho -->
@@ -23,7 +23,7 @@
 
             </div>
                 <div id="menu-carrinho">
-                    <img class="carrinho" src="imagens/icon-cart.png">
+                    <a href=""> <img class="carrinho" src="imagens/icon-cesta.png"></a>
                 </div>
                 <div id="numero-carrinho">
                     <a class="numero"href="">0</a>
@@ -31,218 +31,60 @@
         </div> 
         <!-- Fim menu cabeçalho e carrinho -->
 
+            <!-- Inicio imagem slide -->
             <div id="imagem-slider">
                 <img src="imagens/slider-principalone.jpg">
             </div> 
+            <!-- Fim imagem slide -->
 
-            <div class="emagrecedores">
-                <h2 id="texto-interno">Emagrecedores</h2>
+            <div id="emagrecedores">
+                <h2>Emagrecedores</h2>
             </div>
 
+        <!-- Inicio conteudo -->
         <div id="conteudo">
 
-            <div id="produtos">
+            <!-- Começo container produto 1 -->
+            <div class="produto">
+                <img src="imagens/prod-one.png">
+           
+                <div class="descricao-produto">
+                    <div class="nome-produto">
 
-                <div id="container-produto1">
-                        <div>
-                             <img src="imagens/prod-one.png" class="imagem-produto"> 
-                        </div>
-                           
-                        <div class="descricao-produto">
-                            <div class="nome-produto">
+                        TOP EXTREME
 
-                                        TOP EXTREME
-
-                            </div>
-
-                            <div >
-                                 <h3 class="super-preco">
-                                        SUPER TERMOGÊNICO<BR>
-                                        DE R$189,90
-                                </h3>
-                                   
-                            </div>
-
-                            <div>
-
-                                <h3 class="preco-produto">
-                                    <span style="font-weight: 300; font-size:15px; color: black;position: relative; bottom: 10px; padding: 5px; ">R$</span>149,90
-                                </h3>                                
-                            </div>
-
-                        </div>
-                        <div class="quantidade-produto">
-                            <span style="color: #8c008c; font-size: 2em; font-weight: 300; position: relative; top: 0px; ">-</span>
-                            <input type="text" value="1" class="caixa">
-                            <span style="color: #8c008c; font-size: 2em; font-weight: 300; position: relative; top:1px;">+</span>
-                            <div style="font-size: 0.8em; padding: 5px;font-weight: 600; text-align: center;">ADICIONE A QUANTIDADE</div>
-                        </div>
-                        <div class="comprar">
-                            <a href="#">COMPRAR</a>
-                        </div>
-                        <div>
-                           <ul class="beneficios">
-                               <li>
-                                  ACELERA O METABOLISMO  
-                               </li>
-                               <li>
-                                  DIMINUI O APETITE
-                               </li>
-                               <li>
-                                   REDUZ A GORDURA
-                               </li>
-                           </ul> 
-                        </div>
-                </div>
-
-                <div id="container-produto2">
-                    <div>
-                        <img src="imagens/prod-two.png" class="imagem-produto">
                     </div>
-                          
-                        <div class="descricao-produto">
-                            <div class="nome-produto">
 
-                                        TOP EXTREME
+                        <div class="super-preco">
+                            SUPER TERMOGÊNICO<BR>
+                            DE R$189,90
+                        </div>                        
 
-                            </div>
-
-                            <div >
-                                 <h3 class="super-preco">
-                                        SUPER TERMOGÊNICO<BR>
-                                        DE R$189,90
-                                </h3>
-                                   
-                            </div>
-
-                            <div>
-
-                                <h3 class="preco-produto">
-                                    <span style="font-weight: 300; font-size:15px; color: black;position: relative; bottom: 10px; padding: 5px; ">R$</span>149,90
-                                </h3>                                
-                            </div>
-
+                    <div id="movimentar">
+                      
+                        <div class="sifrao">
+                            R$
                         </div>
-                        <div class="quantidade-produto">
-                            <span style="color: #8c008c; font-size: 2em; font-weight: 300; position: relative; top: 0px; ">-</span>
-                            <input type="text" value="1" class="caixa">
-                            <span style="color: #8c008c; font-size: 2em; font-weight: 300; position: relative; top:1px;">+</span>
-                            <div style="font-size: 0.8em; padding: 5px;font-weight: 600; text-align: center;">ADICIONE A QUANTIDADE</div>
-                        </div>
-                        <div class="comprar">
-                            <a href="#">COMPRAR</a>
-                        </div>
-                        <div>
-                           <ul class="beneficios">
-                               <li>
-                                  ACELERA O METABOLISMO  
-                               </li>
-                               <li>
-                                  DIMINUI O APETITE
-                               </li>
-                               <li>
-                                   REDUZ A GORDURA
-                               </li>
-                           </ul> 
-                        </div>
-                </div>
-
-                </div>
-                <div id="container-produto3">
-                    <div>
-                        <img src="imagens/prod-one.png" class="imagem-produto">
+                              
+                        <div class="preco-produto">
+                            149,90
+                        </div>  
+                      
                     </div>
-                          
-                        <div class="descricao-produto">
-                            <div class="nome-produto">
 
-                                        TOP EXTREME
+                    <div id="caixa-quantidade">
+                        <span>-</span>
+                        <input type="text" value="1">  
+                        <span>+</span>  
+                        <h4>adicione  a quantidade</h4>               
+                    </div>    
 
-                            </div>
-
-                            <div >
-                                 <h3 class="super-preco">
-                                        SUPER TERMOGÊNICO<BR>
-                                        DE R$189,90
-                                </h3>
-                                   
-                            </div>
-
-                            <div>
-
-                                <h3 class="preco-produto">
-                                    <span style="font-weight: 300; font-size:15px; color: black;position: relative; bottom: 10px; padding: 5px; ">R$</span>149,90
-                                </h3>                                
-                            </div>
-
-                        </div>
-                        <div class="quantidade-produto">
-                            <span style="color: #8c008c; font-size: 2em; font-weight: 300; position: relative; top: 0px; ">-</span>
-                            <input type="text" value="1" class="caixa">
-                            <span style="color: #8c008c; font-size: 2em; font-weight: 300; position: relative; top:1px;">+</span>
-                            <div style="font-size: 0.8em; padding: 5px;font-weight: 600; text-align: center;">ADICIONE A QUANTIDADE</div>
-                        </div>
-                        <div class="comprar">
-                            <a href="#">COMPRAR</a>
-                        </div>
-                        <div>
-                           <ul class="beneficios">
-                               <li>
-                                  ACELERA O METABOLISMO  
-                               </li>
-                               <li>
-                                  DIMINUI O APETITE
-                               </li>
-                               <li>
-                                   REDUZ A GORDURA
-                               </li>
-                           </ul> 
-                        </div>
-                </div>
-
-                </div>
-
-                <div class="clear"></div>
-              
-                <div id="container-produto4">
-                    <div>
-                        <img src="imagens/prod-three.png" class="imagem-produto"> 
+                    <div id="comprar">
+                        <a href="">comprar</a>
                     </div>
-                         
-                        <div class="descricao-produto">
-                            <div class="nome-produto">
 
-                                        TOP EXTREME
-
-                            </div>
-
-                            <div >
-                                 <h3 class="super-preco">
-                                        SUPER TERMOGÊNICO<BR>
-                                        DE R$189,90
-                                </h3>
-                                   
-                            </div>
-
-                            <div>
-
-                                <h3 class="preco-produto">
-                                    <span style="font-weight: 300; font-size:15px; color: black;position: relative; bottom: 10px; padding: 5px; ">R$</span>149,90
-                                </h3>                                
-                            </div>
-
-                        </div>
-                        <div class="quantidade-produto">
-                            <span style="color: #8c008c; font-size: 2em; font-weight: 300; position: relative; top: 0px; ">-</span>
-                            <input type="text" value="1" class="caixa">
-                            <span style="color: #8c008c; font-size: 2em; font-weight: 300; position: relative; top:1px;">+</span>
-                            <div style="font-size: 0.8em; padding: 5px;font-weight: 600; text-align: center;">ADICIONE A QUANTIDADE</div>
-                        </div>
-                        <div class="comprar">
-                            <a href="#">COMPRAR</a>
-                        </div>
-                        <div>
-                           <ul class="beneficios">
+                        <div id="lista">
+                            <ul class="beneficios">
                                <li>
                                   ACELERA O METABOLISMO  
                                </li>
@@ -254,101 +96,49 @@
                                </li>
                            </ul> 
                         </div>
-                </div>
 
                 </div>
-                <div id="container-produto5">
-                    <div>
-                        <img src="imagens/prod-three.png" class="imagem-produto"> 
+            </div>
+            <div class="produto">
+                <img src="imagens/prod-two.png">
+           
+                <div class="descricao-produto">
+                    <div class="nome-produto">
+
+                        TOP EXTREME
+
                     </div>
-                         
-                        <div class="descricao-produto">
-                            <div class="nome-produto">
 
-                                        TOP EXTREME
+                        <div class="super-preco">
+                            SUPER TERMOGÊNICO<BR>
+                            DE R$189,90
+                        </div>                        
 
-                            </div>
-
-                            <div >
-                                 <h3 class="super-preco">
-                                        SUPER TERMOGÊNICO<BR>
-                                        DE R$189,90
-                                </h3>
-                                   
-                            </div>
-
-                            <div>
-
-                                <h3 class="preco-produto">
-                                    <span style="font-weight: 300; font-size:15px; color: black;position: relative; bottom: 10px; padding: 5px; ">R$</span>149,90
-                                </h3>                                
-                            </div>
-
+                    <div id="movimentar">
+                      
+                        <div class="sifrao">
+                            R$
                         </div>
-                        <div class="quantidade-produto">
-                            <span style="color: #8c008c; font-size: 2em; font-weight: 300; position: relative; top: 0px; ">-</span>
-                            <input type="text" value="1" class="caixa">
-                            <span style="color: #8c008c; font-size: 2em; font-weight: 300; position: relative; top:1px;">+</span>
-                            <div style="font-size: 0.8em; padding: 5px;font-weight: 600; text-align: center;">ADICIONE A QUANTIDADE</div>
-                        </div>
-                        <div class="comprar">
-                            <a href="#">COMPRAR</a>
-                        </div>
-                        <div>
-                           <ul class="beneficios">
-                               <li>
-                                  ACELERA O METABOLISMO  
-                               </li>
-                               <li>
-                                  DIMINUI O APETITE
-                               </li>
-                               <li>
-                                   REDUZ A GORDURA
-                               </li>
-                           </ul> 
-                        </div>
-                </div>
-
-                </div>
-                <div id="container-produto6">
-                    <div>
-                        <img src="imagens/prod-three.png" class="imagem-produto"> 
+                              
+                        <div class="preco-produto">
+                            149,90
+                        </div>  
+                      
                     </div>
-                         
-                        <div class="descricao-produto">
-                            <div class="nome-produto">
 
-                                        TOP EXTREME
+                    <div id="caixa-quantidade">
+                        <span>-</span>
+                        <input type="text" value="1">  
+                        <span>+</span>  
+                        <h4>adicione  a quantidade</h4>               
+                    </div>    
 
-                            </div>
+                    <div id="comprar">
+                        <a href="">comprar</a>
+                    </div>
 
-                            <div >
-                                 <h3 class="super-preco">
-                                        SUPER TERMOGÊNICO<BR>
-                                        DE R$189,90
-                                </h3>
-                                   
-                            </div>
-
-                            <div>
-
-                                <h3 class="preco-produto">
-                                    <span style="font-weight: 300; font-size:15px; color: black;position: relative; bottom: 10px; padding: 5px; ">R$</span>149,90
-                                </h3>                                
-                            </div>
-
-                        </div>
-                        <div class="quantidade-produto">
-                            <span style="color: #8c008c; font-size: 2em; font-weight: 300; position: relative; top: 0px; ">-</span>
-                            <input type="text" value="1" class="caixa">
-                            <span style="color: #8c008c; font-size: 2em; font-weight: 300; position: relative; top:1px;">+</span>
-                            <div style="font-size: 0.8em; padding: 5px;font-weight: 600; text-align: center;">ADICIONE A QUANTIDADE</div>
-                        </div>
-                        <div class="comprar">
-                            <a href="#">COMPRAR</a>
-                        </div>
-                        <div>
-                           <ul class="beneficios">
+                        <div id="lista">
+                            <ul class="beneficios">
                                <li>
                                   ACELERA O METABOLISMO  
                                </li>
@@ -360,25 +150,286 @@
                                </li>
                            </ul> 
                         </div>
-                </div>
 
                 </div>
+            </div>
+
+            <div class="produto">
+                <img src="imagens/prod-three.png">
+           
+                <div class="descricao-produto">
+                    <div class="nome-produto">
+
+                        TOP EXTREME
+
+                    </div>
+
+                        <div class="super-preco">
+                            SUPER TERMOGÊNICO<BR>
+                            DE R$189,90
+                        </div>                        
+
+                    <div id="movimentar">
+                      
+                        <div class="sifrao">
+                            R$
+                        </div>
+                              
+                        <div class="preco-produto">
+                            149,90
+                        </div>  
+                      
+                    </div>
+
+                    <div id="caixa-quantidade">
+                        <span>-</span>
+                        <input type="text" value="1">  
+                        <span>+</span>  
+                        <h4>adicione  a quantidade</h4>               
+                    </div>    
+
+                    <div id="comprar">
+                        <a href="">comprar</a>
+                    </div>
+
+                        <div id="lista">
+                            <ul class="beneficios">
+                               <li>
+                                  ACELERA O METABOLISMO  
+                               </li>
+                               <li>
+                                  DIMINUI O APETITE
+                               </li>
+                               <li>
+                                   REDUZ A GORDURA
+                               </li>
+                           </ul> 
+                        </div>
+
+                </div>
+            </div>
         
+            <div class="produto">
+                <img src="imagens/prod-one.png">
+           
+                <div class="descricao-produto">
+                    <div class="nome-produto">
 
-            </div>
-            <div class="clear"></div>
+                        TOP EXTREME
 
-            <div>
-              <h3>Preço especial acima de 10 und</h3>
+                    </div>
+
+                        <div class="super-preco">
+                            SUPER TERMOGÊNICO<BR>
+                            DE R$189,90
+                        </div>                        
+
+                    <div id="movimentar">
+                      
+                        <div class="sifrao">
+                            R$
+                        </div>
+                              
+                        <div class="preco-produto">
+                            149,90
+                        </div>  
+                      
+                    </div>
+
+                    <div id="caixa-quantidade">
+                        <span>-</span>
+                        <input type="text" value="1">  
+                        <span>+</span>  
+                        <h4>adicione  a quantidade</h4>               
+                    </div>    
+
+                    <div id="comprar">
+                        <a href="">comprar</a>
+                    </div>
+
+                        <div id="lista">
+                            <ul class="beneficios">
+                               <li>
+                                  ACELERA O METABOLISMO  
+                               </li>
+                               <li>
+                                  DIMINUI O APETITE
+                               </li>
+                               <li>
+                                   REDUZ A GORDURA
+                               </li>
+                           </ul> 
+                        </div>
+
+                </div>
             </div>
-            <div>
-              <h3>Entrega para todo o Brasil</h3>
+
+            <div class="produto">
+                <img src="imagens/prod-two.png">
+           
+                <div class="descricao-produto">
+                    <div class="nome-produto">
+
+                        TOP EXTREME
+
+                    </div>
+
+                        <div class="super-preco">
+                            SUPER TERMOGÊNICO<BR>
+                            DE R$189,90
+                        </div>                        
+
+                    <div id="movimentar">
+                      
+                        <div class="sifrao">
+                            R$
+                        </div>
+                              
+                        <div class="preco-produto">
+                            149,90
+                        </div>  
+                      
+                    </div>
+
+                    <div id="caixa-quantidade">
+                        <span>-</span>
+                        <input type="text" value="1">  
+                        <span>+</span>  
+                        <h4>adicione  a quantidade</h4>               
+                    </div>    
+
+                    <div id="comprar">
+                        <a href="">comprar</a>
+                    </div>
+
+                        <div id="lista">
+                            <ul class="beneficios">
+                               <li>
+                                  ACELERA O METABOLISMO  
+                               </li>
+                               <li>
+                                  DIMINUI O APETITE
+                               </li>
+                               <li>
+                                   REDUZ A GORDURA
+                               </li>
+                           </ul> 
+                        </div>
+
+                </div>
             </div>
+
+            <div class="produto">
+                <img src="imagens/prod-three.png">
+           
+                <div class="descricao-produto">
+                    <div class="nome-produto">
+
+                        TOP EXTREME
+
+                    </div>
+
+                        <div class="super-preco">
+                            SUPER TERMOGÊNICO<BR>
+                            DE R$189,90
+                        </div>                        
+
+                    <div id="movimentar">
+                      
+                        <div class="sifrao">
+                            R$
+                        </div>
+                              
+                        <div class="preco-produto">
+                            149,90
+                        </div>  
+                      
+                    </div>
+
+                    <div id="caixa-quantidade">
+                        <span>-</span>
+                        <input type="text" value="1">  
+                        <span>+</span>  
+                        <h4>adicione  a quantidade</h4>               
+                    </div>    
+
+                    <div id="comprar">
+                        <a href="">comprar</a>
+                    </div>
+
+                        <div id="lista">
+                            <ul class="beneficios">
+                               <li>
+                                  ACELERA O METABOLISMO  
+                               </li>
+                               <li>
+                                  DIMINUI O APETITE
+                               </li>
+                               <li>
+                                   REDUZ A GORDURA
+                               </li>
+                           </ul> 
+                        </div>
+
+                </div>
+            </div>
+
+
+            <!-- Fim container produto 1 -->
+
+
         </div>
- 
-        <div id="rodape">
-          
+        <!-- Fim conteudo -->
+
+        <div id="container-aviso">
+            
+            <h3>Preço especial acima de 10 und</h3>        
+       
+            <h3>Entrega para todo o Brasil</h3>
+       
         </div>
+
+        <div id="newsletter">
+            <img src="imagens/bg-newsletter.png">
+        </div>
+
+        <div id="container-lembrete">
+            <h3>Cadastre-se e fique por dentro de nossas novidades!</h3>
+        </div>
+
+        <div id="cadastro">
+            <form>
+                <input type="text" name="nome" placeholder="Nome"  class="formulario">
+                <input type="text" name="email" placeholder="E-mail"  class="formulario">
+                <button>enviar</button>
+            </form>
+        </div>
+
+    <div id="rodape">
+        <div id="contato">
+
+            <h2>Central de Atendimento</h2>
+
+            <ul>
+                <li>(47) 9 9156-8300</li>
+                <li>maisfitemagrecedor@outlook.com</li>
+            </ul>
+
+            <img src="imagens/maisfit.png" alt="">
+
+        </div>
+        <div id="formulario-contato">
+            <form>
+                <input type="text" name="nome" placeholder="Nome">
+                <input type="text" name="email" placeholder="E-mail" >
+                <button>enviar</button>
+            </form>
+        </div>
+    </div>
+        <footer>
+            <img src="imagens/codestack.png" alt="">
+            <img src="imagens/creativecode.png" alt="">
+        </footer>
 
 </body>
 </html>
